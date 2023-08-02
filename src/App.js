@@ -2,6 +2,10 @@ import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Card from "./components/Card";
+import Carousel from "./components/Carousel";
+import CenterOfDadar from "./components/CenterOfDadar";
+import Map from "./components/Map";
+import Floorplan from "./components/FloorPlan";
 
 export default function App() {
   return (
@@ -22,6 +26,18 @@ export default function App() {
       </div>
       <img src="/images/display.png" alt="display" className="w-full" />
       <Card />
+      <Carousel />
+      <CenterOfDadar />
+      <Map />
+      <Floorplan />
+      <div className="px-0 md:px-10 lg:px-20 mb-10">
+        <div className="bg-[#D8B25D] h-[185px] flex flex-col justify-center items-center">
+          <h3 className="font-hb text-2xl md:text-[32px] text-center mt-3 mb-2">JODI OPTION IS ALSO AVAILABLE!</h3>
+          <button className="text-[#131313] border-2 border-[#131313] mb-3 mt-2 py-3 px-10 font-semibold">
+            Contact Us
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

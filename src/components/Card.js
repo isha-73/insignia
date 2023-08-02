@@ -9,7 +9,7 @@ export default function Card() {
                         <div className="bg-[#D8B25D] w-6 h-full -left-6 absolute z-10"></div>
                         <h3 className="font-hb text-white my-6 text-3xl w-3/4"><span className="text-[#D8B25D]">BUILD</span> UPON THE PUREST EMOTION OF JOY</h3>
                         <p className="text-base text-[#f5f5f5] mb-6 w-3/4">Harmony of Happiness - Delight in the Richness of Your New Home as You Experience Unparalleled Comfort and Opulence in Our Real Estate Haven</p>
-                        <button className="text-[#f5f5f5] border border-[$f5f5f5] mb-6 py-3 px-10">
+                        <button className="text-[#f5f5f5] border border-[#f5f5f5] mb-6 py-3 px-10">
                             Download Brochure
                         </button>
                     </div>
