@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 export default function Map() {
+
     var List = {
         "SHOPPING": [
             "Mall of India",
@@ -56,7 +57,6 @@ export default function Map() {
             "Sector 65"
         ]
 
-
     }
     const [expandedCategory, setExpandedCategory] = useState('');
 
@@ -96,11 +96,6 @@ export default function Map() {
                             )}
                         </div>
                     ))}
-
-
-
-
-
                 </div>
             </div>
         </div>
