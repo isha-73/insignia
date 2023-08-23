@@ -7,7 +7,7 @@ export default function Navbar(){
     return (
         <div className="flex items-center justify-between py-2 px-6 sm:px-6 md:px-10 lg:px-20 sm:max-w-4xl md:max-w-5xl lg:max-w-7xl xl:max-w-screen-2xl max-w-md mx-auto bg-white">
         <a href="/">
-          <img src="/images/logo.png" alt="logo" />
+          <img src="/images/logo.png" alt="logo" className="h-8 md:h-12" />
         </a>
         <nav className="">
           <section className="flex md:hidden z-50">
