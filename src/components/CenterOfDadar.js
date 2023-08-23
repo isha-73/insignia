@@ -1,8 +1,9 @@
 export default function CenterOfDadar() {
     return (
         <div className="flex flex-col mt-10 md:px-10 lg:px-20">
-            <div className="flex md:flex-row flex-col justify-between px-6 md:px-0">
+            <div className="flex md:flex-row flex-col justify-between items-end px-6 md:px-0">
                 <h2 className="font-hb text-2xl text-center md:text-left md:text-3xl my-4 md:my-0">
+                <img src="/images/logo.png" alt="logo" className="w-32 my-2" />
                 <span className="text-[#D8B25D]">LOCATION</span>
                 {` `}THAT MAKES US <br className="hidden md:block"/>CENTER OF DADAR
                 </h2>

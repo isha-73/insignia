@@ -1,6 +1,7 @@
 export default function Footer() {
     return (
-        <div className="md:border-t-2 border-[#D8B25D] my-10 px-6 md:px-10 lg:px-20">
+        <div className="relative md:border-t-2 border-[#D8B25D] my-10 px-6 md:px-10 lg:px-20 pt-16">
+            <img src="/images/logo.png" alt="logo" className="w-32 my-2 mx-32 md:mx-0 md:absolute md:left-24" />
             <h2 className="font-hb text-[55px] lg:text-[208px] text-[#D8B25D] relative text-center md:text-left">INSIGNIA
             <span className="font-hb text-[22px] lg:text-[80px] text-[#D8B25D] absolute top-2 lg:top-10">TM</span>
             </h2>

@@ -4,7 +4,8 @@ export default function About() {
             <img src="/images/about1.png" alt="about 1" className="md:block hidden" />
             
             <div className="grow flex flex-col justify-center px-6 md:px-12">
-                <h2 className="font-hb text-[24px] md:text-[40px] relative my-8 md:my-12">
+                <img src="/images/logo.png" alt="logo" className="w-32 mt-8" />
+                <h2 className="font-hb text-[24px] md:text-[40px] relative mb-8 md:mb-12">
                     ABOUT INSIGNIA
                     <span className="font-hb text-[#D8B25D] text-lg md:text-2xl absolute md:top-2">TM</span>
                 </h2>

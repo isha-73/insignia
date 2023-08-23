@@ -33,7 +33,7 @@ export default function App() {
       <CenterOfDadar />
       <Map />
       <Floorplan />
-      <div className="px-0 md:px-10 lg:px-20 mb-20">
+      <div className="px-0 mb-20">
         <div className="bg-[#D8B25D] h-[185px] flex flex-col justify-center items-center">
           <h3 className="font-hb text-2xl md:text-[32px] text-center mt-3 mb-2">JODI OPTION IS ALSO AVAILABLE!</h3>
           <button className="text-[#131313] border-2 border-[#131313] mb-3 mt-2 py-3 px-10 font-semibold">
@@ -42,7 +42,7 @@ export default function App() {
         </div>
       </div>
       <Behind />
-      <div className="px-0 md:px-10 lg:px-20 mb-20">
+      <div className="mb-20">
         <div className="bg-[#D8B25D] h-[102px] md:h-[132px] flex flex-col justify-center items-center">
           <h3 className="text-2xl font-bold md:text-5xl text-center mt-3 mb-2">P51900012105</h3>
           <p className="text-xs md:text-base md:font-medium">RERA ( Real estate Regulatory Authority) Number</p>

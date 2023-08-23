@@ -71,6 +71,7 @@ export default function Map() {
     return (
         <div className="flex flex-col mt-2 md:px-10 lg:px-20">
             <h2 className="font-hl text-[18px] text-left md:text-3xl my-2 md:my-0 px-6 md:px-0">
+                <img src="/images/logo.png" alt="logo" className="w-32 my-2" />
                 PROMINENT LANDMARKS THAT<br />BRING YOUR WORLD CLOSER
             </h2>
 
